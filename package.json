@@ -1,0 +1,28 @@
+{
+  "name": "proxy_server",
+  "version": "1.0.0",
+  "description": "proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abode-ly/proxy_similar_homes_module.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Julian Venci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abode-ly/proxy_similar_homes_module/issues"
+  },
+  "homepage": "https://github.com/abode-ly/proxy_similar_homes_module#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}

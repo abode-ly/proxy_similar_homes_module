@@ -1,0 +1,27 @@
+#titleBooking {
+  display: flex;
+  flex-direction: row;
+}
+
+#titlePhoto {
+  width: 2000px;
+  height: 1000px;
+  /* margin: -200px; */
+}
+
+#booking-module {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 50px;
+  width: 500px;
+}
+
+#reviews{
+  width: 800px;
+  margin-left: 300px;
+}
+
+#nearbyHomes {
+  margin-top: 30px;
+  margin-left: -300px;
+}
