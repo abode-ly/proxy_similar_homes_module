@@ -1,17 +1,38 @@
+#searchBar-container {
+  display: flex;
+  /* margin-right: 200px; */
+  margin-left: -50px;
+
+}
+#searchBar {
+  width: 1700px;
+  height: 90px;
+}
+
+#carousel_app {
+  display: flex;
+  flex-grow: 1;
+}
 #titleBooking {
   display: flex;
   flex-direction: row;
 }
 
 #titlePhoto {
-  width: 2000px;
+  width: 850px;
   height: 1000px;
   /* margin: -200px; */
 }
 
+/* #amenities-container {
+  display:flex;
+  width: 700px;
+  height: 1000px;
+} */
+
 #booking-module {
   position: absolute;
-  margin-left: 1200px;
+  margin-left: 1100px;
   margin-top: 50px;
   width: 500px;
 }
@@ -23,5 +44,10 @@
 
 #nearbyHomes {
   margin-top: 30px;
+  margin-left: -300px;
+}
+
+#otherlinks-container {
+  display: flex;
   margin-left: -300px;
 }
